@@ -1,0 +1,38 @@
+body{
+
+    background: linear-gradient(91deg, #ff5e5b, #d8d8d8, #ffffea, #00cecb, #ffed66);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+
+h1{
+    color:#CD5C5C;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#5f0202, #04f0a9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center{
+    text-align: center;
+    font-size: 155px;
+}
